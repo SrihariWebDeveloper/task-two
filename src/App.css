@@ -1,0 +1,19 @@
+.app{
+    position: absolute;
+    top: 15%;
+    left: 26%;
+    width: 100vh;
+}
+.app .form{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 20px 20px 30px 20px;
+    border-radius: 10px;
+}
+.form .serch{
+    display: flex;
+    gap: 10px;
+}
+.form .heading{
+    padding-bottom: 10px;
+}

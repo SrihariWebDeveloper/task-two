@@ -1,0 +1,57 @@
+.task .task-data{
+    margin-top: 10px;
+    width: 100%;
+    max-height: 70px;
+    display: none;
+}
+.task .task-data .data{
+    padding: 15px 15px;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.task-data .data .actions{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+.data .actions .delet{
+    background-color: rgb(249, 247, 247);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.data .actions .update{
+    background-color: rgb(249, 247, 247);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.data .actions .mark{
+    background-color: rgb(249, 247, 247);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.task-data .data h5{
+    font-size: 15px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.task-data button{
+    cursor: pointer;
+}
+.task-data.active{
+    display: block;
+}
